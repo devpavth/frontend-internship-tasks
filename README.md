@@ -44,4 +44,4 @@ As part of the internship evaluation, I reviewed the ParkQwik app and provided f
    cd frontend-internship-tasks
 
 3. **Open the Project**
-- Open `index.html` in a web browser to view the project.
+   - Open `index.html` in a web browser to view the project.
