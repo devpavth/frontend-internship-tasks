@@ -37,4 +37,11 @@ As part of the internship evaluation, I reviewed the ParkQwik app and provided f
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/frontend-internship-tasks.git
+   git clone https://github.com/devpavth/frontend-internship-tasks.git
+
+2. **Navigate to the Project Directory**
+   ```bash
+   cd frontend-internship-tasks
+
+3. **Open the Project**
+- Open `index.html` in a web browser to view the project.
