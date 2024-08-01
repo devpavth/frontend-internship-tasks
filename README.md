@@ -45,3 +45,8 @@ As part of the internship evaluation, I reviewed the ParkQwik app and provided f
 
 3. **Open the Project**
 - Open `index.html` in a web browser to view the project.
+
+## Future Improvements
+- Add more interactive features or animations.
+- Enhance the styling and layout for better aesthetics.
+- Implement additional sections or content as needed.
