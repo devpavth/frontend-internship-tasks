@@ -1,0 +1,206 @@
+/* Import the Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&family=Roboto&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Body Styles */
+body, html {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    background-color: #f0f0f0; /* Light background */
+    color: #333; /* Dark text */
+}
+
+/* Flexbox Container for Sticky Footer */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    background-color: #116466; /* Dark teal for header */
+    color: #FFCB9A; /* Soft peach for header text */
+    padding: 20px 0;
+    position: relative;
+    z-index: 1;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    flex-grow: 1;
+}
+
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #FFCB9A; /* Soft peach for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hamburger Menu Styles */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.hamburger-menu span {
+    background-color: #FFCB9A;
+    height: 3px;
+    margin: 4px 0;
+    width: 25px;
+    transition: all 0.3s ease;
+}
+
+/* Hamburger Menu - Open State */
+.hamburger-menu.open span:nth-child(1) {
+    transform: rotate(45deg) translateY(15px);
+}
+
+.hamburger-menu.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger-menu.open span:nth-child(3) {
+    transform: rotate(-45deg) translateY(-15px);
+}
+
+/* Main Content Styles */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.intro {
+    background-color: #D1E8e2; /* White background for intro section */
+    padding: 20px;
+    margin: 20px 0;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(50, 205, 50, 0.5); /* Vibrant green shadow */
+    border-radius: 8px;
+}
+
+.intro h2 {
+    margin-top: 0;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #2c3531; /* Dark teal for heading */
+}
+
+.intro p {
+    margin-top: 10px;
+}
+
+.intro-line {
+    font-size: 18px;
+    color: #116466; /* Dark teal for intro lines */
+    text-align:start;
+    font-weight: 600;
+}
+
+.intro-text {
+    text-align: justify;
+    color: #333; /* Keeping text dark for readability */
+}
+
+/* Footer Styles */
+footer {
+    background-color: #116466; /* Dark teal for footer */
+    color: #FFCB9A; /* Soft peach for footer text */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* header .container {
+        flex-direction: column;
+        text-align: center;
+    } */
+
+    
+    /* header nav {
+        width: 100%;
+        text-align: center;
+    } */
+
+    .hamburger-menu {
+        display: flex;
+        /* margin-left: auto; */
+    }
+
+    header nav ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        background-color: #116466; /* Match the header's background color */
+        position: absolute;
+        top: 60px; /* Adjust as per your header height */
+        left: 0;
+        text-align: center;
+        z-index: 2;
+    }
+
+    header nav ul.active {
+        display: flex;
+    }
+
+    header nav ul li {
+        margin: 0;
+        padding: 10px 0;
+    }
+
+    header nav ul li a {
+        color: #FFCB9A; /* Soft peach for links */
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .intro {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 20px 20px;
+    }
+}
