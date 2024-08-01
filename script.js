@@ -1,4 +1,4 @@
-// Optional: Basic JavaScript functionality for interactivity
+//JavaScript functionality for interactivity
 document.addEventListener("DOMContentLoaded", function() {
     const links = document.querySelectorAll('nav ul li a');
     links.forEach(link => {

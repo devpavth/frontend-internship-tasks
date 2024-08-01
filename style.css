@@ -12,8 +12,8 @@
 body, html {
     font-family: 'Poppins', sans-serif;
     height: 100%;
-    background-color: #f0f0f0; /* Light background */
-    color: #333; /* Dark text */
+    background-color: #f0f0f0; 
+    color: #333; 
 }
 
 /* Flexbox Container for Sticky Footer */
@@ -25,8 +25,8 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #116466; /* Dark teal for header */
-    color: #FFCB9A; /* Soft peach for header text */
+    background-color: #116466; 
+    color: #FFCB9A; 
     padding: 20px 0;
     position: relative;
     z-index: 1;
@@ -65,7 +65,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: #FFCB9A; /* Soft peach for links */
+    color: #FFCB9A; 
     text-decoration: none;
     font-weight: bold;
 }
@@ -109,12 +109,12 @@ main {
 }
 
 .intro {
-    background-color: #D1E8e2; /* White background for intro section */
+    background-color: #D1E8e2; 
     padding: 20px;
     margin: 20px 0;
     max-width: 600px;
     width: 100%;
-    box-shadow: 0 0 10px rgba(50, 205, 50, 0.5); /* Vibrant green shadow */
+    box-shadow: 0 0 10px rgba(50, 205, 50, 0.5); 
     border-radius: 8px;
 }
 
@@ -122,7 +122,7 @@ main {
     margin-top: 0;
     text-align: center;
     margin-bottom: 10px;
-    color: #2c3531; /* Dark teal for heading */
+    color: #2c3531; 
 }
 
 .intro p {
@@ -131,20 +131,20 @@ main {
 
 .intro-line {
     font-size: 18px;
-    color: #116466; /* Dark teal for intro lines */
+    color: #116466; 
     text-align:start;
     font-weight: 600;
 }
 
 .intro-text {
     text-align: justify;
-    color: #333; /* Keeping text dark for readability */
+    color: #333; 
 }
 
 /* Footer Styles */
 footer {
-    background-color: #116466; /* Dark teal for footer */
-    color: #FFCB9A; /* Soft peach for footer text */
+    background-color: #116466; 
+    color: #FFCB9A; 
     text-align: center;
     padding: 20px 0;
     margin-top: auto;
@@ -173,9 +173,9 @@ footer {
         display: none;
         flex-direction: column;
         width: 100%;
-        background-color: #116466; /* Match the header's background color */
+        background-color: #116466; 
         position: absolute;
-        top: 60px; /* Adjust as per your header height */
+        top: 60px; 
         left: 0;
         text-align: center;
         z-index: 2;
@@ -191,7 +191,7 @@ footer {
     }
 
     header nav ul li a {
-        color: #FFCB9A; /* Soft peach for links */
+        color: #FFCB9A; 
         text-decoration: none;
         font-weight: bold;
     }
